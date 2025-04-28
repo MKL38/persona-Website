@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="body-container md:flex md:flex-row  lg:flex lg:flex-row ">
-       {/* <Navbar/> */}
+       <Navbar/>
 
 
         {/* Hero section */}
