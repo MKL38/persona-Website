@@ -22,8 +22,7 @@ const Navbar = () => {
         {/* Red Navigation Bar */}
         <div
           className={`${isNavOpen ? "translate-x-0" : "-translate-x-full"} 
-          transition-transform duration-300 ease-in-out bg-red-700 text-white w-full md:w-64 fixed h-screen z-40`}
-          style={{ position: "absolute" }}
+          transition-transform duration-300 ease-in-out bg-red-700 text-white w-full md:w-64 fixed top-0 left-0 h-screen z-40`}
         >
           <nav className="flex flex-col h-full pt-20 w-full">
             <div className="text-3xl font-bold mb-10">introduction</div>
