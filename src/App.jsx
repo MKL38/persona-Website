@@ -4,23 +4,12 @@ import Navbar from "../src/componentUI/navBar";
 function App() {
   return (
     <>
-      <div className="body-container md:flex md:flex-row  lg:flex lg:flex-row">
-        {/* Mobile Navbar */}
-        <Navbar />
-        {/* large Navbar */}
-        <div className="bgNav hidden md:bg-[#cb0000] h-screen md:flex justify-start flex-col lg:w-[220px] lg:flex lg:justify-start fixed z-50">
-          <div className="nav-content flex-col ml-6 mt-10 md:mt-24 text-start text-white ">
-            <h1 className="lg:text-2xl  font-bold mb-10 ">introduction</h1>
-            <h1 className="lg:text-2xl font-bold mb-10 ">Skills</h1>
-            <h1 className="lg:text-2xl  font-bold  ">experiences</h1>
-            <div className="experience-ls text-end mr-16">
-              <p className="text-xl ">Ascend</p>
-              <p className="text-xl  ">CP Axtra</p>
-            </div>
-          </div>
-        </div>
+      <div className="body-container md:flex md:flex-row  lg:flex lg:flex-row ">
+       {/* <Navbar/> */}
+
+
         {/* Hero section */}
-        <div className="hero-container-mobile mt-[80px] flex flex-row md:ml-[220px] space-x-10">
+        <div className="hero-container-mobile mt-[80px] flex flex-row  space-x-10">
           {/* Main Nickname */}
           <div className="main-Nickname text-9xl ml-4 drop-shadow-2xl lg:w-[200px]">
             <h1>D</h1>
@@ -37,7 +26,7 @@ function App() {
           </div>
         </div>
         {/* introduction content */}
-        <div className="intro-container mt-10 md:w-[400px] lg:w-full md:mt-[100px] lg:space-y-6">
+        <div className="intro-container mt-10 md:w-[400px] lg:w-full md:mt-[100px] lg:space-y-6 xl:mr-10 ">
           <div className="intro-text-container text-start ml-6 space-y-4">
             <h1 className="text-[#cb0000] font-bold">Who am I ?</h1>
             <h1 className="mb-10">Mr.Teerapat Futhep</h1>
@@ -57,7 +46,7 @@ function App() {
       </div>
 
       {/* Skills section*/}
-      <div className="grid lg:grid-cols-2 xl:ml-[220px] xl:mt-20 lg:ml-[180px] lg:mt-20 md:mt-24 md:grid md:grid-cols-1 ">
+      <div className="grid lg:grid-cols-2  xl:mt-20  lg:mt-20 md:mt-24 md:grid md:grid-cols-1 ">
         {/* Business */}
         <div className="businessSkills-container  xl:w-100%">
           <div className="skills-header bg-[#cb0000] xl:ml-32 xl:mr-4 lg:ml-32 lg:mr-4 py-3">
@@ -114,7 +103,7 @@ function App() {
         </div>
       </div>
       {/* Experience section */}
-      <div className="experience-container xl:ml-[220px] xl:mt-20 lg:ml-[180px] lg:mt-20 md:mt-24">
+      <div className="experience-container ] xl:mt-20  lg:mt-20 md:mt-24">
 
       </div>
     </>

@@ -10,10 +10,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="md:hidden lg:hidden">
+      <div className="z-50">
         {/* Navigation Toggle Button (visible on mobile) */}
         <button
-          className="md:hidden fixed top-4 left-4 z-50 bg-red-700 text-white p-2 rounded-md"
+          className=" fixed top-4 left-4 z-50 bg-red-700 text-white p-2 rounded-md"
           onClick={toggleNav}
         >
           {isNavOpen ? <X size={24} /> : <Menu size={24} />}
