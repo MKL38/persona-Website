@@ -25,8 +25,8 @@ const CarouselComponent = () => {
         loop: true,
       }}
     >
-      <CarouselPrevious className="absolute left-2 z-10 h-full w-10  bg-white/50 hover:bg-white/80" />
-      <CarouselContent className="flex gap-4 ">
+      <CarouselPrevious className="absolute lg:top-48 sm:top-72 left-2 z-10 h-[300px] w-10  bg-white/50 hover:bg-white/80" />
+      <CarouselContent className="flex  gap-4 ">
         <CarouselItem className="flex lg:flex-row sm:flex-col items-center justify-center h-full w-[300px]   bg-slate-100  ">
           {/* Item 1 */}
           <div className="lg:flex lg:space-x-10 sm:space-y-10 "><img className="w-[300px] h-[400px] drop-shadow-lg sm:mx-auto  " src="src\img\cor1.jpg" alt="c-level-presentation" />
@@ -68,7 +68,7 @@ const CarouselComponent = () => {
           </div>
         </CarouselItem>
       </CarouselContent>
-      <CarouselNext className="absolute right-2 z-10 h-full w-10  bg-white/50 hover:bg-white/80" />
+      <CarouselNext className="absolute lg:top-48 sm:top-72 right-2 z-10 h-[300px] w-10  bg-white/50 hover:bg-white/80" />
     </Carousel>
   );
 };

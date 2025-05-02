@@ -1,15 +1,19 @@
 import "./App.css";
 import Navbar from "./componentRender/navBar";
 import CarouselCpAxtra from "./componentRender/CarouselCpAxtra";
-import { LinkedInIcon,EmailIcon,PhoneIcon } from "./componentRender/icon/all-icon";
+import {
+  LinkedInIcon,
+  EmailIcon,
+  PhoneIcon,
+} from "./componentRender/icon/all-icon";
 
 function App() {
   return (
     <>
       <div className="body-container md:flex md:flex-row  lg:flex lg:flex-row ">
-       <Navbar/>
+        <Navbar />
 
-        <div id="introduction-navi" ></div>
+        <div id="introduction-navi"></div>
         {/* Hero section */}
         <div className="hero-container-mobile mt-[80px] flex flex-row  space-x-10">
           {/* Main Nickname */}
@@ -42,7 +46,9 @@ function App() {
               <h1 className="text-[#cb0000] font-bold">Education</h1>
               <p>Techup</p>
               <p>King Mongkut's Institute of Technology Ladkrabang</p>
-              <div className=" flex flex-row " ><LinkedInIcon/> <EmailIcon/> <PhoneIcon/> </div>
+              <div className=" flex flex-row ">
+                <LinkedInIcon /> <EmailIcon /> <PhoneIcon />{" "}
+              </div>
             </div>
           </div>
         </div>
@@ -101,17 +107,17 @@ function App() {
             <ul className="other-skills mt-10">
               <li className="font-bold">Other</li>
               <li>Git / Github</li>
-            
             </ul>
           </div>
         </div>
       </div>
       {/* Experience section */}
-      <div id="experience-navi" ></div>
-      <div className="experience-container xl:mt-20  lg:mt-20 md:mt-24 ">
-        <div className="CarouselCpAxtra"><CarouselCpAxtra/></div>
-        <div className="bgred bg-red-700 w-10 h-10"></div>
-
+      <div id="experience-navi"></div>
+      <div className="experience-container flex flex-col  xl:mt-20  lg:mt-20 md:mt-24  ">
+        <div className="CarouselCpAxtra">
+          <CarouselCpAxtra />
+        </div>
+        <div className="bgred mt-36 bg-red-700 w-10 h-80  "></div>
       </div>
       
     </>
