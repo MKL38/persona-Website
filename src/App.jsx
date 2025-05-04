@@ -17,7 +17,7 @@ function App() {
         {/* Hero section */}
         <div className="hero-container-mobile mt-[80px] flex flex-row  space-x-10">
           {/* Main Nickname */}
-          <div className="main-Nickname text-9xl ml-4 drop-shadow-2xl lg:w-[200px]">
+          <div className="main-Nickname  text-9xl ml-4 drop-shadow-2xl lg:w-[200px]">
             <h1>D</h1>
             <h1>O</h1>
             <h1>N</h1>
@@ -25,7 +25,7 @@ function App() {
           {/* Hero img */}
           <div className="hero-img sm:w-[250px] xl:w-[400px] mt-7 drop-shadow-2xl">
             <img
-              className="hero-img-img object-cover rounded-sm"
+              className="hero-img-img object-cover rounded-sm  "
               src="src\img\6A6E5A14-FC0C-4A67-B039-D756CE81E248.jpg"
               alt=""
             />
@@ -113,13 +113,14 @@ function App() {
       </div>
       {/* Experience section */}
       <div id="experience-navi"></div>
-      <div className="experience-container flex flex-col  xl:mt-20  lg:mt-20 md:mt-24  ">
+      <div className="experience-container flex flex-col  xl:mt-16  lg:mt-20 md:mt-24 sm:mt-5 ">
         <div className="CarouselCpAxtra">
+        <div className="flex justify-center mb-10"><div className="bgred  bg-red-700 w-2/3  "><h1 className="text-center mr-4 text-3xl font-bold text-white " >Experiences</h1></div></div>
           <CarouselCpAxtra />
         </div>
-        <div className="bgred mt-36 bg-red-700 w-10 h-80  "></div>
+        <div className="bgred  lg:mt-[150px] md: sm:mt-[300px] bg-red-700 w-10 h-80  "></div>
+        
       </div>
-      
     </>
   );
 }
