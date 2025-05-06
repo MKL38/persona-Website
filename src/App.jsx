@@ -5,7 +5,7 @@ import {
   LinkedInIcon,
   EmailIcon,
   PhoneIcon,
-} from "src/componentRender/icon/all-Icon.jsx";
+} from "./componentRender/icon/all-Icon.jsx";
 
 function App() {
   return (
