@@ -7,6 +7,9 @@ import {
   PhoneIcon,
 } from "./componentRender/icon/all-Icon.jsx";
 
+import HeroImg from "./assets/img/6A6E5A14-FC0C-4A67-B039-D756CE81E248.jpg";
+
+
 function App() {
   return (
     <>
@@ -26,7 +29,7 @@ function App() {
           <div className="hero-img sm:w-[250px] xl:w-[400px] mt-7 drop-shadow-2xl">
             <img
               className="hero-img-img object-cover rounded-sm  "
-              src="src\img\6A6E5A14-FC0C-4A67-B039-D756CE81E248.jpg"
+              src={HeroImg}
               alt=""
             />
           </div>

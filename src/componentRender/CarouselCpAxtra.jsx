@@ -9,6 +9,13 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
+import cor1 from "../assets/img/cor1.jpg";
+import cor2 from "../assets/img/cor2.jpg";
+import cor3 from "../assets/img/cor3.jpg";
+import cor4 from "../assets/img/cor4.jpg";
+import cor5 from "../assets/img/cor5.jpg";
+
+
 const CarouselComponent = () => {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
@@ -33,7 +40,7 @@ const CarouselComponent = () => {
             <div className="flex items-center">
               <img
                 className="w-[300px] h-[400px] drop-shadow-lg sm:mx-auto  "
-                src="src\img\cor1.jpg"
+                src={cor1}
                 alt="c-level-presentation"
               />
             </div>
@@ -65,7 +72,7 @@ const CarouselComponent = () => {
             <div className="flex items-center pt-0">
               <img
                 className="w-[300px] h-[400px] drop-shadow-lg sm:mx-auto  "
-                src="src\img\cor2.jpg"
+                src={cor2}
                 alt="c-level-presentation"
               />
             </div>
@@ -99,7 +106,7 @@ const CarouselComponent = () => {
             <div className="flex items-center pt-0">
               <img
                 className="w-[300px] h-[400px] drop-shadow-lg sm:mx-auto  "
-                src="src\img\cor3.jpg"
+                src={cor3}
                 alt="c-level-presentation"
               />
             </div>
@@ -132,7 +139,7 @@ const CarouselComponent = () => {
             <div className="flex items-center pt-0">
               <img
                 className="lg:w-[470px] h-[400px] sm:w-[440px] drop-shadow-lg sm:mx-auto  "
-                src="src\img\cor4.jpg"
+                src={cor4}
                 alt="c-level-presentation"
               />
             </div>
@@ -157,7 +164,7 @@ const CarouselComponent = () => {
             <div className="flex items-center pt-11">
               <img
                 className="w-[300px] h-[400px] sm:w-[400px] drop-shadow-lg sm:mx-auto  "
-                src="src\img\cor5.jpg"
+                src={cor5}
                 alt="c-level-presentation"
               />
             </div>
