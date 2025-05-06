@@ -54,10 +54,10 @@ const Navbar = () => {
               </div>
               <div className="nav-content-mobile pl-24 space-y-2">
                 <div className="text-xl">
-                  <a href="#">Ascend</a>
+                  <a href="#project-record">Ascend</a>
                 </div>
                 <div className="text-xl">
-                  <a href="#">CP Axtra</a>
+                  <a href="#project-record">CP Axtra</a>
                 </div>
               </div>
             </div>

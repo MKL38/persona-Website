@@ -36,18 +36,19 @@ function App() {
           <div className="intro-text-container text-start ml-6 space-y-4">
             <h1 className="text-[#cb0000] font-bold">Who am I ?</h1>
             <h1 className="mb-10">Mr.Teerapat Futhep</h1>
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-              amet molestias iste maxime doloremque dolorum suscipit minus quae
-              vel excepturi similique odio! Voluptate sunt temporibus iusto.
-              Unde sint doloribus iure.
-            </span>
+            <p className="xl:w-[650px]" >
+              Hi, "I operate at the intersection of business and technology
+              integration. While coding serves as a hobby, my true expertise set
+              in business development. I've cultivated my career through a hard
+              structured corporate environments and fast-paced agile tech
+              firm."
+            </p>
             <div className="intro-text-container-education mt-10 space-y-3">
               <h1 className="text-[#cb0000] font-bold">Education</h1>
               <p>Techup</p>
               <p>King Mongkut's Institute of Technology Ladkrabang</p>
               <div className=" flex flex-row ">
-                <LinkedInIcon /> <EmailIcon /> <PhoneIcon />{" "}
+                <LinkedInIcon /> <EmailIcon /> <PhoneIcon />
               </div>
             </div>
           </div>
@@ -115,11 +116,56 @@ function App() {
       <div id="experience-navi"></div>
       <div className="experience-container flex flex-col  xl:mt-16  lg:mt-20 md:mt-24 sm:mt-5 ">
         <div className="CarouselCpAxtra">
-        <div className="flex justify-center mb-10"><div className="bgred  bg-red-700 w-2/3  "><h1 className="text-center mr-4 text-3xl font-bold text-white " >Experiences</h1></div></div>
+          <div className="flex justify-center mb-10">
+            <div className="bgred  bg-red-700 w-2/3  ">
+              <h1 className="text-center mr-4 text-3xl font-bold text-white ">
+                Experiences
+              </h1>
+            </div>
+          </div>
           <CarouselCpAxtra />
         </div>
-        <div className="bgred  lg:mt-[150px] md: sm:mt-[300px] bg-red-700 w-10 h-80  "></div>
-        
+      </div>
+      {/* Project record section */}
+      <div
+        id="project-record"
+        className="project-record flex flex-row   lg:mt-[200px] md:mt-[600px] md:mb-10 sm:mt-[600px] sm:mb-10 "
+      >
+        <div className="track-record  bg-red-700 w-20 h-80  "></div>
+        <div className="flex flex-col md:flex-row   w-full">
+          <div className="w-full px-7 space-y-7 ">
+            <h1 className="font-extrabold text-slate-700">
+              Ascend commerce (Amaze super application)
+            </h1>
+            <p className="text-start">
+              Conducted in-depth business and operational research to define
+              workflow, SOP and functional requirements for on-demand and
+              delivery models.
+            </p>
+            <p className="text-start">
+              Analyzed application journey such as MakroPro, 7-11, All-online.
+              Also in-store operations to streamline service integration with
+              Ascend’s platform, ensuring consistency in customer experience and
+              operational efficiency
+            </p>
+          </div>
+          <div className="w-full px-7 space-y-7 sm:mt-20 md:mt-0 lg:mt-0">
+            <h1 className="font-extrabold text-slate-700">CP Axtra (Makro)</h1>
+            <p className="text-start">
+              Business development project experience within extensive sales
+              area, both Bangkok and upcountry.
+              <h1 className="font-bold text-red-600 mt-4">
+                Sales area experience
+              </h1>
+              <ul>
+                <li>• Srinakarin (highest sales territory)</li>
+                <li>• Chiang Mai</li>
+                <li>• Saraburi</li>
+                <li>• Suphanburi</li>
+              </ul>
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
